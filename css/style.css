@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: linear-gradient(gray,black);
+     height: 100vh;  
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#central{
+    width: auto;
+    width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#central form{
+        display: flex;
+        flex-direction: column;
+}
+#central form input{
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: silver;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    width: 400px
+}
+#central form label{
+    color: darkblue;
+    font-weight: bold;
+    font-size:18px;
+    text-align: center;
+    width: 400px;
+}
+#central form button{
+
+    width: 400px;
+    padding: 15px;
+    background: darkred;
+    color: white;
+    font-size: 30px; 
+    border-radius:5px; 
+    border: none;
+    outline:none;
+    cursor: pointer;
+
+    
+}
+    /* para tirar a seta do formulário */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+    }
